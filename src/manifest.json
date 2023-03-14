@@ -1,0 +1,19 @@
+{
+  "name": "VdInfoWindowSolar",
+  "description": "Custome InfoWindow for display Solar Power generation Data ",
+  "version": "1.0",
+  "icon": "images/icon.png",
+  "author": "Miguel Angel Gabaldon",
+  "copyright": "Gabatronic",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "esri",
+      "version": "3.32"
+    }
+  ],
+  "properties": {
+    "map": {}
+  },
+  "configuration": {}
+}
