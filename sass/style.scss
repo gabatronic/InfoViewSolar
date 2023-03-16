@@ -1,0 +1,69 @@
+$fa-font-path: "./webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+$background: #0C3A59;
+$body-color: #ffffff;
+$body-background-color: $background;
+$body-font-color: $body-color;
+$family-primary: "Arial";
+$title-color: $body-color;
+$title-family: $family-primary;
+$body-font-size: 1.2em;
+$tabs-boxed-link-hover-background-color: #aed6f8;
+$modal-bg-color: #fffff;
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/table.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/helpers/typography.sass";
+@import "../node_modules/bulma/sass/helpers/visibility.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/components/modal.sass";
+@import "../node_modules/bulma/sass/components/tabs.sass";
+@import "autocomplete.scss";
+
+.vd-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  .vd-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+.data-container {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee0e0;
+  background-color: rgba(12, 58, 89, 0.9);
+  color: #ffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.btn-search {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.r-side {
+  min-width: 20px;
+}
