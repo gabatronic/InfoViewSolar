@@ -1,0 +1,23 @@
+{
+  "name": "infoviewsolar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabatronic/InfoViewSolar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabatronic/InfoViewSolar/issues"
+  },
+  "homepage": "https://github.com/gabatronic/InfoViewSolar#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^8.0.0"
+  }
+}
